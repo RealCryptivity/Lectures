@@ -3,8 +3,14 @@ public class Main {
         
         String a; // "Hey, I have a variable that represents a String. It's name is a"
         
-        a = "TEXT HERE";
+        a = "TEXT HERE"; //init
         
-        System.out.println("123456");
+        int b = 1; // Declaration and Init
+
+        a = (a + b) ; // "a" is an assignment
+        
+        System.out.println(a);
+
+        
     }
-}
+}  
